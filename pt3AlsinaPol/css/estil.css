@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=El+Messiri:wght@700&display=swap');
+
+body {
+  background-color: #d1f3e7;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'El Messiri', sans-serif;
+}
+ul{
+  text-transform: uppercase;
+  list-style: none;
+  padding-top: 20px;
+}
+li{
+  display: inline;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
+}
+a{
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: #8a8070;
+}  
+/* mouse over link */
+a:hover {
+  color: #7aba96;
+}
+/* selected link */
+a:active {
+  color: black;
+}
+#SobreMi {
+  float: left;
+  width: 20%;
+  padding: 1%;
+  text-align: center;
+}
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.text{
+    text-align: justify center;
+    font-family: 'Arvo', serif;
+}
+.linea{
+    width: 80%;
+}
+.position{
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 5px;
+  background-color: lightgreen;
+}
+.text2{
+  font-family: 'Arvo', serif;
+  text-align: justify;
+}
+.llistat{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.llis{
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+}
+.llistat::after{
+  clear: both;
+}
+img{
+  border-radius: 5px;
+}
+.text3{
+  text-align: justify;
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+}
+.float{
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  display: table;
+}
+.floatp::after{
+  clear: both;
+}

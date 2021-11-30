@@ -1,0 +1,91 @@
+section{
+    text-align: justify;
+}
+.form{
+    float: left;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.formR{
+    float: left;
+    clear: right;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+label, input, textarea{
+  display: block
+}
+body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+.background {
+    display: flex;
+    min-height: 100vh;
+}
+.box:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+}
+.submit {
+    width: 200px;
+    color: white;
+    background-color: lightgreen;
+    font-size: 20px;
+    color: black;
+} 
+.submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+}
+.box {
+    background-color: #ebebeb;
+    color: black;
+}
+.message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+}
+.message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+}
+.formulari {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0% {
+      transform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+} 
+input, textarea {
+    border: none;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #f8f4e5;
+    padding-left: 5px;
+    outline: none;
+}

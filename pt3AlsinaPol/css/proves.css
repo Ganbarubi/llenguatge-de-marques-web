@@ -1,0 +1,27 @@
+
+* {
+  box-sizing: border-box;
+}
+footer{
+	text-align:center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column20 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column40 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

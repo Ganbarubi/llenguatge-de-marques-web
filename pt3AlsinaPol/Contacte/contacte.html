@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- *****************************************************
+Nom:Pol 
+Cognom:Alsina
+*********************************************************** -->
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/estil.css"/>
+        <link rel="stylesheet" href="../css/cssform.css"/>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header style="text-align: center;">
+                <a href="../index.html"><img src="../imatges/delicias.png"></a>
+                <hr>
+                <nav class="position">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../index.html">Sobre mí</a></li>
+                        <li><a href="../recepta/recepta.html">Recetas</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="../llistat/llistat.html">Lista de recetas</a></li>
+                    </ul>
+                </nav>
+                <hr>
+        </header>
+        <section class="form formulari">
+            <h1 style="text-align: center;">Ponte en contacto con nosotros y consigue el EKBOOK TOTALMENTE GRATIS</h1>
+            <form name="NewsLetter" method="get">
+                <!-- NewsLetter-->
+    
+                <fieldset>
+                    <legend><h3>NewsLetter</h3></legend>
+                    <input type="hidden" name="oculto" value="0">
+                    <div>
+                        <!-- e-mail -->
+                        <label for="ie-mail">E-mail</label>
+                        <input type="email" id="ie-mail" class="box" placeholder="hola@portal.cat">
+                    </div>
+                    <div>
+                        <!-- Camp Nom -->
+                        <label for="inom" >Nombre:</label>
+                        <input type="text" id="inom" class="box" placeholder="Nombre">
+                        <!-- Camp cognom -->
+                        <label for="icognom">Apellidos:</label>
+                        <input type="text" id="icognom" class="box" placeholder="Apellidos">
+                    </div>
+                    <!-- tema -->
+                    <div>
+                        Temas de cocina que te gustan:
+                    </div>
+                    <div class="inline">
+                        <input type="checkbox" id="iRep" name="gustus" value="Rep">
+                        <label for="iRep">Reposteria</label>
+                        <input type="checkbox" id="iVang" name="gustus" value="Vang">
+                        <label for="iVang">Concina Vanguardista</label>
+                        <input type="checkbox" id="iTrad" name="gustus" value="Trad">
+                        <label for="iTrad">Concina Tradicional</label>
+                        <input type="checkbox" id="iCrea" name="gustus" value="Crea">
+                        <label for="iCrea">Cocina Creativa</label>
+                    </div>
+                </fieldset>
+                   <!-- buto enviar i esborrar -->
+                   <div>
+                    <input type="submit" class="submit" value="Enviar">
+                    <input type="reset" class="submit" value="Borrar">
+                 </div>
+                </form>
+        </section> 
+        <section class="formR formulari">
+                <form  name="Receta" method="get">
+                <!--Propia receta-->
+                <fieldset>
+                    <legend><h3>Sube tu propia receta</h3></legend>
+                    <div>
+                        <!-- e-mail -->
+                        <label for="ie-mail">E-mail</label>
+                        <input type="email" id="ie-mail" class="box" placeholder="hola@portal.cat">
+                    </div>
+                    <div>
+                        <!-- Camp Nom -->
+                        <label for="inom">Nombre:</label>
+                        <input type="text" id="inom" class="box" placeholder="Nombre">
+                        <!-- Camp cognom -->
+                        <label for="icognom">Apellidos:</label>
+                        <input type="text" id="icognom" class="box" placeholder="Apellidos">
+                    </div>
+                    <div>
+                        <!-- Nom Receta -->
+                       <label for="ireceta">Nombre receta:</label>
+                       <input type="text" class="box" id="ireceta" >
+                    </div>
+                    <div >
+                        <!-- Nivel de cocina -->
+                        <label for="aNivell"> Nivel de la receta:</label>
+                        <input type="radio" id="iExperto" name="Nivell" value="Experto">
+                        <label for="iExperto">Experto</label>
+                        <input type="radio" id="iAvanzado" name="Nivell" value="Avanzado">
+                        <label for="iAvanzado">Avanzado</label>
+                        <input type="radio" id="iIntermedio" name="Nivell" value="Intermedio">
+                        <label for="iIntermedio">Intermedio</label>
+                        <input type="radio" id="iexp" name="Nivell" value="Con Experiencia">
+                        <label for="iexp">Con Experiencia</label>
+                        <input type="radio" id="iPrin"  name="Nivell" value="Principiante">
+                        <label for="iPrin">Principiante</label>
+                    </div>
+                    <!-- adjuntar fitxer -->
+                    <div >
+                        <label for="ireceta">Sube tu receta aqui en formato pdf:</label>
+                        <input type="file" id="ireceta">
+                    </div>
+                    <!-- comentaris -->
+                    <div>
+                        Comentarios extras sobre la receta:
+                    </div>
+                    <div>
+                       <textarea form="Form" cols="50" class="message" rows="10">Escribe aqui tu comentario</textarea>
+                    </div>
+                </fieldset>
+                    <!-- buto enviar i esborrar -->
+                    <div>
+                       <input type="submit" class="submit" value="Enviar">
+                       <input type="reset" class="submit" value="Borrar">
+                    </div>
+                </form>
+            </section> 
+        </section>
+        <footer style="text-align: center;">
+            <nav>
+                <ul>
+                    <li><a>Facebook</a></li>
+                    <li><a>Twitter</a></li>
+                    <li><a>Instagram</a></li>
+                    <li><a>Pinterest</a></li>
+                    <li><a>Email</a></li>
+                    <li><a>RSS</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
