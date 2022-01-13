@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="llista.xsl"?>
+<!-- *****************************************************
+Nom:Pol 
+Cognom:Alsina
+*********************************************************** -->
+<receptes>
+    <recepta>
+        <imatge ruta="../imatges/Pasta.jpg"/>
+        <titol>Pasta con salsa de coliflor y pimienta de Jamaica</titol>
+        <temps>Tiempo: 30min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: No</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/galletas.jpg"/>
+        <titol>Galletas de avena, rosa y lima</titol>
+        <temps>Tiempo: 60min</temps>
+        <dificultat> Difficultat: Fácil</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: No</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/mijo.jpg"/>
+        <titol>Mijo cremoso con lentejas, hortalizas y shiitake</titol>
+        <temps>Tiempo: 60min</temps>
+        <dificultat> Difficultat: Difícil</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: No</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/calabacines.jpg"/>
+        <titol>Calabacines rellenos de arroz negro y calabaza</titol>
+        <temps>Tiempo: 90min</temps>
+        <dificultat> Difficultat: Experto</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+
+    <recepta>
+        <imatge ruta="../imatges/carne_ternera.jpg"/>
+        <titol>Guiso de ternera con patatas</titol>
+        <temps>Tiempo: 190min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/fideua.jpg"/>
+        <titol>Fideuá de marisco y pescado</titol>
+        <temps>Tiempo: 60min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/patatas_asadas.jpg"/>
+        <titol>Patatas asadas o al horno especiadas</titol>
+        <temps>Tiempo: 40min</temps>
+        <dificultat> Difficultat: Facil</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/calabacines.jpg"/>
+        <titol>Cómo hacer guacamole mexicano </titol>
+        <temps>Tiempo: 12min</temps>
+        <dificultat> Difficultat: Facil</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+
+    <recepta>
+        <imatge ruta="../imatges/lasana.jpg"/>
+        <titol>Lasaña de carne</titol>
+        <temps>Tiempo: 55min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: No</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/canelones.jpg"/>
+        <titol>Canelones de carne</titol>
+        <temps>Tiempo: 120min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: No</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/pilotes.jpg"/>
+        <titol>Albóndigas en salsa</titol>
+        <temps>Tiempo: 90min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/pollotikka.jpg"/>
+        <titol>Pollo tikka masala con arroz basmati</titol>
+        <temps>Tiempo: 60min</temps>
+        <dificultat> Difficultat: Facil</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+
+    <recepta>
+        <imatge ruta="../imatges/tonkatsu.jpg"/>
+        <titol>chuletas de cerdo tonkatsu</titol>
+        <temps>Tiempo: 90min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: No</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/pollo.jpg"/>
+        <titol>pollo rustido a la catalana. Pollo con uvas pasas, piñones y prunas</titol>
+        <temps>Tiempo: 90min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/tortillas.jpg"/>
+        <titol>Tortitas caseras o pancakes</titol>
+        <temps>Tiempo: 25min</temps>
+        <dificultat> Difficultat: Facil</dificultat>
+        <vegano>Vegano: Si</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/arroz.jpg"/>
+        <titol>Arroz con pollo</titol>
+        <temps>Tiempo: 30min</temps>
+        <dificultat> Difficultat: Media</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/curry.jpg"/>
+        <titol>Pollo al curry con arroz thai</titol>
+        <temps>Tiempo: 40min</temps>
+        <dificultat> Difficultat: Facil</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+    <recepta>
+        <imatge ruta="../imatges/teriyaki.jpg"/>
+        <titol>Pollo teriyaki con arroz blanco</titol>
+        <temps>Tiempo: 25min</temps>
+        <dificultat> Difficultat: Facil</dificultat>
+        <vegano>Vegano: No</vegano>
+        <anticancer>Anticáncer: No</anticancer>
+        <sinGluten>Celíacos: Si</sinGluten>
+    </recepta>
+</receptes>

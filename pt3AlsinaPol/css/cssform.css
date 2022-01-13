@@ -19,7 +19,7 @@ section{
 label, input, textarea{
   display: block
 }
-body, button, input {
+section, button, input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 1.4px;
